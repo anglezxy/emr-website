@@ -26,10 +26,10 @@ export default {
     list-style-type: none;
     padding: 0;
   }
-  li {
-    display: inline-block;
-    /*margin: 0 18px;*/
-  }
+  /*li {*/
+  /*  display: inline-block;*/
+  /*  !*margin: 0 18px;*!*/
+  /*}*/
   a {
     color: #42b983;
   }
@@ -40,7 +40,7 @@ export default {
   text-align: center;
   color: white;
   /*margin-top: 60px;*/
-  background-color: black;
+  background-color: #1C1C1C;
   width: 100%;
 }
   .aboutUs {
