@@ -29,9 +29,9 @@
       </p>
       <img src="../../static/images/C_28.png" style="margin-left:5%;left:0;position: absolute;width: 170px;height: 130px">
       <div style="margin-right:5%;right:0;position: absolute;">
-        <a-icon type="close" style="color: white;font-weight: bolder;font-size: -webkit-xxx-large"/><br/><br/><br/>
+        <a-icon type="close" style="color: white;font-weight: bolder;font-size: 32px"/><br/><br/><br/>
         <br/><br/><br/>
-        <a-icon type="close" style="color: white;font-weight: bolder;font-size: -webkit-xxx-large"/>
+        <a-icon type="close" style="color: white;font-weight: bolder;font-size: 32px"/>
       </div>
       <div style="margin: 50px auto;width: 100%">
         <p style="width: 40%;border: 1px solid #FFFFFF;margin:0 auto" class="usNews">
@@ -52,7 +52,7 @@
         </tr>
       </table>
       </div>
-      <div style="right:-80px;position: absolute;width: 200px;height: 280px;background: url('../../static/images/C_R.png') no-repeat"></div>
+      <div style="right:0px;position: absolute;width: 200px;height: 280px;background: url('../../static/images/C_R.png') no-repeat"></div>
 <!--      <img src="../../static/images/C_R.png" style="right:0;position: absolute;width: 100px;height: 100px;background-size: ">-->
       <h2 style="margin: 50px 0 0 0;font-size: 16.5px">美国社区大学</h2>
       <h2 style="color:#FF8400;margin: 0 0 15px 0;padding: 0;font-size: 8.95px;word-spacing: 3px;">c o m m u n i t y &nbsp;l l e g e</h2>

@@ -3,10 +3,7 @@
   <div slot="content" style="margin-top: 150px">
   <h2 class="fontFamily" style="font-size: 23px;">赛事介绍</h2>
   <div class="introunce fontFamily">
-    <div style="display: inline-block;width:20px;
-height:20px;
-background:rgba(255,154,0,1);
-border-radius:50%;position: absolute;margin-left: -100px;margin-top:50px"></div>
+    <div style="display: inline-block;width:20px;height:20px;background:rgba(255,154,0,1);border-radius:50%;position: absolute;margin-left: -100px;margin-top:50px"></div>
     <p class="indexTwo" style="display: inline-block;width: 194px;position: absolute;margin-left: -197px;
     margin-top: 100px;">提起美国著名的体育赛事，除了NBA和NFL（超级碗）以外，不得不 提NCAA大学男子篮球联赛。作为NCAA最具影响力的赛事IP，联赛每年三月开打，因此得名“疯狂三月”（March Madness），其受关注程度甚至超越美国橄榄球超级碗，世界棒球大赛，欧洲冠军杯及NBA。</p>
     <img style="display: inline-block;width: 279.5px;height: 498.5px;" src="../../static/images/images(E)/E_03.png">
