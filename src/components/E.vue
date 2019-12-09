@@ -119,7 +119,7 @@ border-radius:50%;position: absolute;margin-left: 100px;margin-top:120px"></div>
                 <div style="width: 100%;">
                     <div style="display: inline-block; left:0;margin-top: 70px;margin-left:110px;z-index: 1;position:absolute">
                         <p class="fontFamily" style="font-size: 28px;font-weight: bold;margin-bottom:5px;">扫 码 关 注</p>
-                        <img src="../../static/images/images(E)/three.png">
+                        <img src="../../static/images/images(E)/three.png" style="width: 127px;">
                     </div>
                     <div style="display: inline-block;margin-right:50px;font-size:20px;font-style: italic">
                         <img src="../../static/images/images(E)/E_06.jpg" style="width: 240px;height: 240px;">
@@ -131,7 +131,7 @@ border-radius:50%;position: absolute;margin-left: 100px;margin-top:120px"></div>
                     </div>
                     <div style="display: inline-block;right:0;margin-top: 70px;margin-right: 110px;z-index: 1;position:absolute">
                         <p class="fontFamily" style="font-size: 28px;font-weight: bold;margin-bottom:5px;">扫 码 关 注</p>
-                        <img src="../../static/images/images(E)/three.png">
+                        <img src="../../static/images/images(E)/three.png" style="width: 127px;">
                     </div>
                 </div>
             </div>

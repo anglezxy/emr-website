@@ -1,13 +1,14 @@
 <template>
 <BasicLayout>
   <div slot="content" style="margin-top: 150px">
-  <img src="../../static/images/C_03.png" style="width: 286px;height: 160px;"/>
-  <img src="../../static/images/C_05.png" style="left:0;position: absolute;height: 425px;width: 186px;">
-    <img src="../../static/images/C_08.png" style="right:0;position: absolute;height: 425px;width: 176px;">
+<!--  <img src="../../static/images/C_03.png" style="width: 286px;height: 160px;"/>-->
+    <img src="../../static/images/C_03.png"/>
+  <img src="../../static/images/C_05.png" style="left:0;position: absolute;width: 286px;margin-top:60px;">
+    <img src="../../static/images/C_08.png" style="right:0;position: absolute;width: 286px;">
     <h2 style="margin: 50px 0 0 0; padding: 0;">常春藤盟校</h2>
     <img style="padding: 0 0;" src="../../static/images/C_0L.png">
     <div style="width: 80%;margin: 25px auto">
-      <p class="textStyle indexTwo web-font" style="width: 80%;margin: 0 auto;text-align: left">
+      <p class="textStyle indexTwo" style="width: 80%;margin: 0 auto;text-align: left">
         常春藤盟校成立于1954年，是由美国东北部地区的8所私立大学组成的体育赛事联盟。
         这8所学校有着许多共同的特点：它们都是美国名校、产生最多罗德奖学金得主的大学联盟。
         此外它们也是美国历史悠久的大学，他们分别是：布朗大学、哥伦比亚大学、康奈尔大学、达特茅斯学院、哈佛大学、宾夕法尼亚大学、
@@ -17,12 +18,18 @@
         常春藤联盟也处处透露着贵族气息。
       </p>
       <div class="logoALL">
-        <img src="../../static/images/C_14.png" style="height: 45px; width: 42px">
-        <img src="../../static/images/C_19.png" style="height: 45px; width: 42px">
-        <img src="../../static/images/C_16.png" style="height: 45px; width: 42px">
-        <img src="../../static/images/C_11.png" style="height: 45px">
+        <img src="../../static/images/C_14.png" >
+        <img src="../../static/images/C_19.png" >
+        <img src="../../static/images/C_16.png" >
+        <img src="../../static/images/c_106.png" >
+        <img src="../../static/images/c_107.png" >
+        <img src="../../static/images/c_108.png" >
+        <img src="../../static/images/c_109.png" >
+        <img src="../../static/images/c_110.png" >
+<!--        <img src="../../static/images/images(I)/I_68.png">-->
+<!--        <img src="../../static/images/C_11.png">-->
       </div>
-      <h2 style="margin: 50px 0 0 0;font-size: 16.5px">美国公立大学</h2>
+      <h2 style="margin: 50px 0 0 0;font-size: 23px">美国公立大学</h2>
       <h2 style="color:#EF983A;margin: 0 0 15px 0;padding: 0">TOP10</h2>
       <p class="textStyle indexTwo web-font" style="width: 80%;margin: 0 auto;text-align: left">
         美国的大学有公立和私立之分，相较于私立院校，公立院校会获得较多来自联邦政府、州政府的税收拨款或地方政府部门的资金支持，美国3600所大学中公立大学有近1700所。其中综合实力最强的公立教育系统当属加州大学，各类排行榜中的公立前十名常能被其下属的分校们霸占一般左右，加州大学伯克利分校更是数十年如一日地占据世界公立第一的位置。由于拥有充足的政府资金作为后盾，超过95%的美国公立大学都活跃在NCAA的舞台，为学生运动员提供尽可能多的运动项目和更完善的保障。美国大学各项运动排名前20的队伍中，来自公立大学占据了3分之2的席位，足可见公立大学对竞技体育的投入和重视。
@@ -39,8 +46,9 @@
           <span style="color: #FF8700">最新全美大学排名</span>
         </p>
       </div>
-      <div style="width: 100%;text-align: center">
-        <img src="../../static/images/table.png" style="width: 98%">
+    </div>
+      <div style="width: 90%;margin: 0 auto">
+        <img src="../../static/images/table.png" style="width: 100%">
 <!--      <table border="1" >-->
 <!--        <tr>-->
 <!--          <th>1.普林斯顿大学</th>-->
@@ -53,6 +61,7 @@
 <!--        </tr>-->
 <!--      </table>-->
       </div>
+    <div style="width: 80%;margin: 25px auto">
       <div style="right:0px;position: absolute;width: 200px;height: 280px;background: url('../../static/images/C_R.png') no-repeat"></div>
 <!--      <img src="../../static/images/C_R.png" style="right:0;position: absolute;width: 100px;height: 100px;background-size: ">-->
       <h2 style="margin: 50px 0 0 0;font-size: 16.5px">美国社区大学</h2>
@@ -76,7 +85,7 @@
         以上介绍仅仅是美国高等教育的冰山一角。但可以确定的是，数量惊人的美国大学为学生运动员的发展创造了肥沃的土壤任何水平的学生运动员都会最终找到适合自己的学校，茁壮成长！
       </p>
       <div style="width: 100%;margin-top: 30px">
-        <img src="../../static/images/c_table.png" style="width: 85%">
+        <img src="../../static/images/c_table.png" style="width: 100%">
       </div>
     </div>
     <div style="background: url('../../static/images/C_02.png') no-repeat;width: 100%;height: 150px;background-size: 100% 120px">
@@ -84,7 +93,7 @@
   </div>
 
   <div slot="footer" class="footer">
-    <p class="pStyle web-font" style="margin-bottom: 0;padding-bottom: 60px">
+    <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">
       美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;<span class="hand"  @click="nextTo('/icomponent')">联系我们</span></p>
   </div>
 </BasicLayout>
@@ -112,25 +121,26 @@
     color:rgba(255,254,254,1);
   }
   .indexTwo {
-    text-indent:30px;
+    text-indent:49px;
     display: box;
     display: -webkit-box;
     display: -moz-box;
   }
   .textStyle {
-    font-size:13px;
-    /*font-family:NotoSansHans;*/
-    font-weight:400;
+    font-size:18px;
+    font-family:NotoSansHans;
+    /*font-weight:300;*/
     font-style:italic;
     color:rgba(255,254,254,1);
-    line-height: 20px;
+    line-height: 30px;
   }
   .logoALL {
-    margin-top: 30px;
+    max-width: 1300px;
+    margin: 30px auto;
   }
   .logoALL img {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 25px;
   }
   .usNews {
     font-family:FZZYJW;

@@ -234,8 +234,8 @@
                     请关注下方二维码</p>
                 <div style="width: 100%;">
                     <div style="display: inline-block; left:0;margin-left:110px;z-index: 1;position:absolute;margin-top:50px;">
-                        <p class="fontFamily" style="font-size: 28px;font-weight: bold">扫 码 关 注</p>
-                        <img src="../../static/images/images(E)/three.png">
+                        <p class="fontFamily" style="font-size: 28px;font-weight: bold;margin-bottom:5px;">扫 码 关 注</p>
+                        <img src="../../static/images/images(E)/three.png" style="width: 127px;">
                     </div>
                     <div style="display: inline-block;margin-right:50px; font-size: 20px;font-style: italic">
                         <img src="../../static/images/images(E)/E_06.jpg" style="width: 240px;height: 240px;">
@@ -246,8 +246,8 @@
                         <p>微信客服</p>
                     </div>
                     <div style="display: inline-block;right:0;margin-right: 110px;z-index: 1;position:absolute;margin-top:50px;">
-                        <p class="fontFamily" style="font-size: 28px;font-weight: bold">扫 码 关 注</p>
-                        <img src="../../static/images/images(E)/three.png">
+                        <p class="fontFamily" style="font-size: 28px;font-weight: bold;margin-bottom:5px;">扫 码 关 注</p>
+                        <img src="../../static/images/images(E)/three.png" style="width: 127px;">
                     </div>
                 </div>
             </div>
