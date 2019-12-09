@@ -26,16 +26,17 @@
       <img src="../../static/images/images(H)/H04.png" style="width: 60%;display: block;margin-left:20%;"/>
       <img src="../../static/images/images(H)/H05.png" style="width: 40%;display: block;margin-left:30%;margin-top:30px;"/>
     </div>
-    <div style="position:relative;width:100%;height:600px;background: url('../../static/images/images(H)/footer.png') no-repeat;background-size:100% 600px; ">
-      <hr  style="z-index:999;height:1px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0;position:absolute;bottom: 120px;left: 10%;">
-      <p class="pStyle footer" style="bottom: 60px;position: absolute;width: 100%;margin: 0 auto;">
-            美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>
+    <div style="position:relative;width:100%;height:600px;background: url('../../static/images/images(H)/footer.png') no-repeat;background-size:contain;background-position: center center ">
+<!--      <hr  style="z-index:999;height:1px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0;position:absolute;bottom: 120px;left: 10%;">-->
+<!--      <p class="pStyle footer" style="bottom: 60px;position: absolute;width: 100%;margin: 0 auto;">-->
+<!--            美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>-->
     </div>
   </div>
-<!--  <div slot="footer" class="footer">-->
-<!--    <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">-->
-<!--      美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>-->
-<!--  </div>-->
+  <div slot="footer" class="footer" style="background: #4f1260;padding-top: 10px">
+    <hr  style="height:1px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
+    <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px;padding-top: 20px">
+      美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;<span class="hand"  @click="nextTo('/icomponent')">联系我们</span></p>
+  </div>
 </basic-layout>
 </template>
 
@@ -43,7 +44,12 @@
     import BasicLayout from "@/components/BasicLayout";
     export default {
         name: "Question",
-        components: {BasicLayout}
+        components: {BasicLayout},
+      methods:{
+        nextTo(name) {
+          this.$router.push(name) ;
+        }
+      }
     }
 </script>
 
@@ -62,7 +68,7 @@
     width: 100%;
     /*height: 48px;*/
     /*line-height: 48px;*/
-    font-size: 21.5px;
+    font-size: 26px;
     font-family: NotoSansHans;
     font-weight: 300;
     font-style: italic;

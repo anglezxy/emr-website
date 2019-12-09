@@ -14,6 +14,7 @@ export default {
   body {
     margin: 0 0;
     padding: 0 0;
+    letter-spacing: 2px;
   }
   div {
     margin: 0 0;
@@ -33,22 +34,29 @@ export default {
   a {
     color: #42b983;
   }
+  .hand {
+     cursor: pointer
+  }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
-  /*margin-top: 60px;*/
+  color: rgba(255,255,255,1);
+  /*color: inherit;*/
   background-color: #1C1C1C;
   width: 100%;
 }
   .aboutUs {
     height:20px;
     font-size:20px;
-    font-family:NotoSansHans;
-    font-weight:bold;
+    font-family:NotoSansHans-bold;
+    /*font-weight:bold;*/
     color:rgba(28,28,28,1);
     padding: 3px 3px;
   }
+</style>
+
+<style >
+    @import '../static/font/font.css';
 </style>

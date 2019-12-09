@@ -4,30 +4,48 @@
       <h2 style="font-size: 33.07px">美国高校运动奖学金项目</h2>
       <h5 style="letter-spacing:1px;font-size: 8.73px">C&nbsp; O&nbsp; L&nbsp; L&nbsp; E&nbsp; G&nbsp; E &nbsp;&nbsp; A&nbsp; T &nbsp;H &nbsp;L&nbsp; E &nbsp;T &nbsp;I &nbsp;C &nbsp;&nbsp; S&nbsp; C&nbsp; H &nbsp;O&nbsp; L &nbsp;A &nbsp;R &nbsp;S&nbsp; H &nbsp;I&nbsp; P &nbsp;&nbsp; P&nbsp; R&nbsp; O &nbsp;G &nbsp;R &nbsp;A &nbsp;M</h5>
       <h1>项目概述</h1>
-      <div  class="xmgaishu"  style="font-size: 13px">
-        <p class="fontFamily sportText ">
+      <div  class="xmgaishu">
+        <p class="fontFamily  sportText ">
          以“学生运动员”身份直升/转学进入美国大学就读全日制本科。修读意向专业，接受精英教育。课余时间参加校队训练和参加校际比赛，享受奖学金及各项运动员福利。<br/>
         </p>
         <p class="fontFamily sportText ">当一个人可以在大学生涯同时应付繁重的学业和艰苦的训练，他/她的竞争力在步入社会时可想而知。学生运动员这一杰出群体的诞生要归功于美国大学完善的体教结合系统。在致力于培养出社会各界精英人士的理念推动下，美国高等教育体系使学业与体育的双重成功成为可能。
         </p>
       </div>
-      <img   style="height: 425px;width: 123px;position: absolute;left: 0px" src="../../static/images/images(B)/B_02.gif">
+      <img   style="position: absolute;left: 0px" src="../../static/images/images(B)/B_02.gif">
       <h1>升学路径</h1>
-      <div class="shenxue" style="font-size: 13px;">
-        <p><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>1. 直接进入名校，四年顺利毕业后获得学士学位&nbsp;<a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
-        <p><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>2. 国内大学转学进入名校，毕业后获得学士学位 &nbsp;<a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
-        <p><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>3. 社区大学+名校2+2路线，毕业后获得学士学位 &nbsp;<a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
+      <div class="shenxue" style="line-height: 27px">
+        <p style="margin-bottom: 10px;width: 500px;margin-left: auto;margin-right:auto">
+          <a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>
+          <span style="line-height: 27px;height: 27px;vertical-align: top;">1. 直接进入名校，四年顺利毕业后获得学士学位</span>
+          <a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/>
+        </p>
+        <p style="margin-bottom: 10px;width: 500px;margin-left: auto;margin-right:auto"><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>
+          <span style="line-height: 27px;height: 27px;vertical-align: top;">2. 国内大学转学进入名校，毕业后获得学士学位</span>
+          <a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
+        <p style="margin-bottom: 10px;width: 500px;margin-left: auto;margin-right:auto"><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>
+          <span style="line-height: 27px;height: 27px;vertical-align: top;">3. 社区大学+名校2+2路线，毕业后获得学士学位</span><a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
         <p style="color: #FF8B00;">(学位证书均由最终毕业学校颁发)</p>
       </div>
       <h1>教育收益</h1>
-      <div class="shenxue" style="font-size: 13px">
-        <p><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>·美国名校留学背景，毕业证书·&nbsp;<a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
-        <p><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>·国际校友群，强大社会人脉资源·&nbsp;<a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
-        <p><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>·顶级教育背书，更强的社会竞争力·&nbsp;<a-icon type="caret-right" style="color:#7F1753;fontSize:27px;"/></p>
+      <div class="shenxue" style="line-height: 27px;">
+        <p style="margin-bottom:10px;width: 400px;margin-left: auto;margin-right:auto">
+          <a-icon type="caret-left" style="color:#7F1753;fontSize:27px;float: left;"/>
+          <span style="vertical-align: top;height:27px;display: inline-block;">·美国名校留学背景，毕业证书·</span>
+          <a-icon type="caret-right" style="color:#7F1753;fontSize:27px;float: right;"/>
+        </p>
+        <p style="margin-bottom:10px;width: 400px;margin-left: auto;margin-right:auto">
+          <a-icon type="caret-left" style="color:#7F1753;fontSize:27px;float: left;"/>
+          <span style="vertical-align: top;height:27px;display: inline-block;">·国际校友群，强大社会人脉资源·</span>
+          <a-icon type="caret-right" style="color:#7F1753;fontSize:27px;float: right;"/></p>
+        <p style="margin-bottom:10px;width: 400px;margin-left: auto;margin-right:auto">
+          <a-icon type="caret-left" style="color:#7F1753;fontSize:27px;float: left"/>
+          <span style="vertical-align: top;height:27px;display: inline-block;">·顶级教育背书，更强的社会竞争力·
+          </span><a-icon type="caret-right" style="color:#7F1753;fontSize:27px;float: right;"/>
+        </p>
       </div>
       <div class="xmgaishu" style="border:1px solid rgba(255,139,0,1);border-radius:10px;margin-top: 80px;text-align: center;position: relative;">
         <h1 style="position: absolute;display: block;margin-top: -15px;text-align: center;width: 100%">个人成长</h1>
-        <p style="padding: 90px 112px 78px 109px;font-size: 13px">
+        <p style="padding: 90px auto 78px auto !important;font-size: 18px;">
         <span style="line-height: 30px;height:60px">1.因为校队和队友的关系，学生运动员比普通留学生更容易融入美国校园文化，结交朋友 </span><br/>
           <span style="line-height: 60px">2.日常训练与教练、队友交流会更快提升英语能力 </span><br/>
         <span style="line-height: 60px">3.学校体育部会专门请企业高管给学生运动员上领导力提升、团队建设课程</span> <br/>
@@ -36,28 +54,31 @@
       </div>
       <img src="../../static/images/images(B)/B_16.png" style="position:absolute;right: 0;width: 137px;height: 520px;margin-top:-150px">
       <h1>运动员福利</h1>
-      <div class="shenxue" style="text-align: left;margin-left: 10%;margin-right: 10%;font-size: 15px">
-        <p v-for="(i,index ) in sportsPeople" :key="index"><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/>
-          <span style="color:#FF8B00;font-size: 15px; ">{{ i.title }}</span><br/>
-          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i.content }}</span>
-        </p>
+      <div class="shenxue" style="text-align: left;margin-left: 10%;margin-right: 10%;">
+        <div v-for="(i,index ) in sportsPeople" :key="index">
+         <div style="line-height: 27px;height:27px;"> <a-icon type="caret-right" style="color:#7F1753;fontSize:27px"/>
+          <span style="color:#FF8B00;font-size: 20px;display: inline-block;vertical-align: top">{{ i.title }}</span>
+         </div>
+          <p style="padding-left: 37px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ i.content }}</p>
+        </div>
       </div>
-      <div class="xmgaishu" style="border:1px solid rgba(255,139,0,1);border-radius:10px;margin-top: 80px;text-align: center;position: relative;">
+      <div class="xmgaishu" style="border:1px solid rgba(255,139,0,1);border-radius:10px;margin-top: 80px;text-align: center;position: relative;line-height:32px;margin-left: 18%;
+    margin-right:18%;">
       <h1 style="position: absolute;display: block;margin-top: -15px;text-align: center;width: 100%">招生条件</h1>
-      <p style="padding-top:50px;font-size: 13px"><span style="color: #7F1753">年龄：</span><span>17岁-21岁</span> </p>
-        <p style="font-size: 13px"><span style="color: #7F1753">学历：</span><span>高中毕业，或国内大学大一大二（均需提供成绩单）</span></p>
-        <p style="font-size: 13px"><span style="color: #7F1753">运动水平：</span>有国家三级运动员证书以上或者相近的体育运动能力
+      <p style="padding-top:50px;"><span style="color: #7F1753">年龄：</span><span>17岁-21岁</span> </p>
+        <p><span style="color: #7F1753">学历：</span><span>高中毕业，或国内大学大一大二（均需提供成绩单）</span></p>
+        <p ><span style="color: #7F1753">运动水平：</span>有国家三级运动员证书以上或者相近的体育运动能力
         </p>
-        <p style="font-size: 13px;width: 80%;margin:0 auto;"><span>运动项目：足球、棒球、篮球、沙滩排球、保龄球、越野跑、击剑、曲棍球、美式足球
+        <p style="width: 80%;margin:0 auto;"><span>运动项目：足球、棒球、篮球、沙滩排球、保龄球、越野跑、击剑、曲棍球、美式足球
 （美式橄榄球）、高尔夫、体操、冰球、长曲棍球、网球、步枪射击、赛艇、滑雪、垒球、游泳&跳水、田径、 排球、水球、摔跤、技巧啦啦操、竞技舞蹈（舞蹈啦啦操）</span>
         </p>
        <!-- <p style="padding: 50px 112px 78px 109px;">-->
-        <div style="width: 80%;margin: 25px auto;font-size: 13px">
+        <div style="width: 80%;margin: 50px auto;font-size: 15px">
 <!--        <div>-->
 <!--          <a-icon type="caret-left" style="color:#7F1753;fontSize:27px;"/><p class="pline" style="margin-top:50px">有一定语言和学术基础</p>-->
 <!--            <a-icon type="caret-right" style="color: #7F1753;font-size: 27px"/>-->
 <!--        </div>-->
-          <div v-for="s in items">
+          <div v-for="s in items" style="margin-bottom: 10px;">
             <p style="display: inline-block;width: 5%;text-align: start;"><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/></p>
             <p class="pline">{{ s }}</p>
             <p style="text-align: start;display: inline-block;width: 5%"><a-icon type="caret-right" style="color: #7F1753;font-size: 27px"/></p>
@@ -67,13 +88,13 @@
 <!--        <div><a-icon type="caret-left" style="color:#7F1753;fontSize:27px"/> <p class="pline">对美国校园/社会文化有浓厚感兴趣</p><a-icon type="caret-right" style="color: #7F1753;font-size: 27px"/></div>-->
         </div>
     </div>
-      <img   style="height: 587px;width: 84px;position: absolute;left: 0px;margin-top:-300px" src="../../static/images/images(B)/B_10.png">
+      <img   style="position: absolute;left: 0px;margin-top:-300px" src="../../static/images/images(B)/B_10.png">
       <h1 style="background: url('../../static/images/images(B)/B_07.png') no-repeat center;background-size: 160px 40px">
         学术成绩要求
       </h1>
       <p style="font-size: 13px;color: #FF8B00;line-height: 30px">托福60分及以上（具体以校方要求为准）</p>
       <p style="font-size: 13px;color: #FF8B00;line-height: 30px">学术成绩GPA2.3以上（初三以及高中三年成绩或大学成绩单）</p>
-      <img   style="height: 261px;width: 110px;position: absolute;right: 0px" src="../../static/images/images(B)/B_13.png">
+      <img   style="position: absolute;right: 0px" src="../../static/images/images(B)/B_13.png">
       <h1>可选学校</h1>
       <div class="fontFamily" style="margin:0 auto;border-radius: 5px;border: #7F1753 solid 1px;width:571px;height:89px;">
         <p style="font-size: 13px;line-height: 30px;margin-top:15px">包含常春藤学校：哈佛大学，耶鲁大学，普林斯顿大学等<br/>
@@ -86,7 +107,7 @@
         </p>
 
       </div>
-      <p class="clickP">
+      <p class="clickP hand" @click="nextTo('/icomponent')" >
         点击进入“关于我们”页面，查看更多合作院校
       </p>
       <div style="margin: 0 auto;width: 76%;margin-top:80px;margin-bottom: 80px;">
@@ -121,7 +142,7 @@
           <span style="color:#FFC000">Division II</span>: 水平低于Division I，由308所大学组成，占28%
           <br/>
           <span style="color:#5F1264">Division III</span>: 水平为三个等级中最低，由443所大学组成，占40%
-          <img src="../../static/images/images(B)/B_05.gif" style="width: 180px;height: 180px; float: right;margin-top: -140px;"/>
+          <img src="../../static/images/images(B)/B_05.gif" style=" float: right;margin-top: -140px;"/>
           <br/>
           <br/><br/>
           * NCAA每年为Division I和Division II学校发放接近30亿美金的奖学金,受益的运动员超过50万。Division III 和 Ivy League（常春藤联盟）不提供运动奖学金，但会根据学生运动员具体情况提供相应助学金或者学术经费支持。
@@ -161,7 +182,7 @@
           NJCAA联盟中Division I和Division II学校会收到共计4.5亿美金用于发放学生运动员奖学金。虽然Division III学校的运动员没有运动奖学金，但因为学生运动员的身份也有机会申请到相当大比例的学术助学金。同时，NJCAA作为两年制社区大学，学费低廉，对学生学术能力（对国际生英语要求较低）和运动水平要求不高，完成两年社区大学学习后还可顺利转入任何四年制公、私立大学。较低的入学门槛使NJCAA联盟的成员学校广受青睐，成为学生获取美国精英教育的跳板。
         </p>
         <br/>
-        <p class="fontFamily  lineHeight" style="color:#FFC000;font-size: 15px;">
+        <p class="fontFamily web-font lineHeight" style="color:#FFC000;font-size: 15px;">
           个联盟几乎覆盖了全美所有大学，为学生运动员提供了丰富的选择。
         </p>
 <!--        </div>-->
@@ -172,7 +193,7 @@
 
     <div slot="footer" class="footer">
       <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">
-        美国运动员专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>
+        美国运动员专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;<span class="hand"  @click="nextTo('/icomponent')">联系我们</span></p>
     </div>
   </basic-layout>
 </template>
@@ -197,6 +218,14 @@
         items: [
             '有一定语言和学术基础',"有意向前往美国高校训练、学习，接受精英教育","想要争取作为普通留学生无法考虑申请的学校",'希望节省高额名校学费','对美国校园/社会文化有浓厚感兴趣'
         ]
+      }
+    },
+      created() {
+
+      },
+    methods:{
+      nextTo(name) {
+        this.$router.push(name) ;
       }
     }
   }
@@ -235,7 +264,7 @@
    padding: 0 0;
    margin: 0 0;
    font-size:17px;
-   font-family:NotoSansHans;
+   font-family: "webfont";
    font-weight:400;
    font-style:italic;
    color:rgba(255,139,0,1);
@@ -258,11 +287,14 @@
     margin: 0 0 ;
   }
   .pline {
-    margin: 10px 0px;
+    /*margin: 10px 0px;*/
     text-align: center;
     width: 80%;
     display: inline-block;
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 27px;
+    vertical-align: top;
+    font-size: 18px;
   }
     .footer {
       /*position: absolute;*/
@@ -279,7 +311,7 @@
     width: 100%;
     /*height: 48px;*/
     /*line-height: 48px;*/
-    font-size: 21.5px;
+    font-size: 26px;
     font-family: NotoSansHans;
     font-weight: 300;
     font-style: italic;
@@ -287,18 +319,18 @@
     height: 24px;
   }
   .xmgaishu {
-    font-size:13px;
+    font-size:18px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;
     color:rgba(255,254,254,1);
-    margin-left: 25%;
-    margin-right:25%;
+    margin-left: 15%;
+    margin-right:15%;
     text-align: left;
     line-height:20px;
   }
   .shenxue {
-    font-size:13px;
+    font-size:18px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;
@@ -317,14 +349,14 @@
 
   .clickP {
     margin: 0 auto;
-    width:280px;
-    font-size:13px;
+    width:320px;
+    font-size:18px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;
-    color:rgba(255,139,0,1);
+    color:rgba(255,139,0,1);;
     line-height:30px;
-    border-bottom: solid 1px #FF9A00;
+    border-bottom: solid 1px rgba(255,139,0,1);
   }
   .sportText {
     text-align: start;
@@ -332,7 +364,7 @@
     display: box;
     display: -webkit-box;
     display: -moz-box;
-    font-size:13px;
+    font-size:18px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;

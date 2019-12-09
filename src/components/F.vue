@@ -1,6 +1,7 @@
 <template>
 <BasicLayout>
   <div slot="content" style="margin-top: 150px">
+    <div style="width: 1300px;margin: 0 auto;position: relative">
     <img src="../../static/images/images(F)/F_LX.png" style="width: 187px;height:149px;"/>
     <p class="fontFamily" style="width: 80%;margin: 20px auto;">从帮助您解析自身优势，选择大学；到撰写您的申请，与大学沟通；直至帮您斩获心仪的offer，并妥善安排您在新国家生活的所有细节，消除您对未知生活的恐惧。BridgeSports始终贴心地陪伴直至您顺利地完成整个流程。</p>
     <p class="fontFamily1" style="width: 80%;margin: 40px auto 50px auto">
@@ -111,10 +112,13 @@
     </div>
 
 <!--    <img src="../../static/images/images(F)/F_BOT.png" style="width: 100%;margin-left:-50px;margin-right:-50px">-->
-    <div style="background: url('../../static/images/images(F)/F_BOT.png') no-repeat;width: 100%;height: 500px;background-size: 150% 100%;
-    background-position-x: -345px;position: relative;margin-top: 80px;margin-bottom: 100px;">
-        <p style="width:200px;position:absolute;right: 25%;border: 1px solid red;top:405px;" href="#">点击</p>
     </div>
+    <div style="background: url('../../static/images/images(F)/F_BOT1.png') no-repeat;background-position:center center;background-size: contain;width: 100%;height: 500px;position: relative;margin-top: 80px;margin-bottom: 100px;">
+        <p style="width:215px;position:absolute;top:405px;left: 57%;z-index: 999" href="#" @click="nextTo('/wangye')"></p>
+      <img src="../../static/images/images(F)/111_01.png" style="right:0;position: absolute;height: 425px;width: 186px;">
+      <img src="../../static/images/images(F)/111_02.png" style="left:0;position: absolute;height: 425px;width: 176px;">
+    </div>
+    <div style="width: 1300px;margin: 0 auto;">
     <img src="../../static/images/C_05.png" style="left:0;position: absolute;height: 425px;width: 186px;">
     <img src="../../static/images/C_08.png" style="right:0;position: absolute;height: 425px;width: 176px;">
     <img src="../../static/images/images(F)/F_FW.png" style="width: 140px;height: 140px;">
@@ -141,12 +145,13 @@
       </div>
       <img src="../../static/images/images(F)/F_WHY.png" style="width:700px;">
     </div>
+    </div>
     <div style="background: url('../../static/images/C_02.png') no-repeat;width: 100%;height: 150px;background-size: 100% 120px">
     </div>
   </div>
   <div class="footer" slot="footer">
     <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">
-      美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>
+      美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;<span class="hand"  @click="nextTo('/icomponent')">联系我们</span></p>
   </div>
 </BasicLayout>
 </template>
@@ -155,7 +160,12 @@
     import BasicLayout from "@/components/BasicLayout";
     export default {
         name: "F",
-        components: {BasicLayout}
+        components: {BasicLayout},
+      methods:{
+        nextTo(name) {
+          this.$router.push(name) ;
+        }
+      }
     }
 </script>
 
@@ -187,7 +197,7 @@
     width: 100%;
     /*height: 48px;*/
     /*line-height: 48px;*/
-    font-size: 21.5px;
+    font-size: 26px;
     font-family: NotoSansHans;
     font-weight: 300;
     font-style: italic;

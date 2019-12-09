@@ -1,10 +1,11 @@
 <template>
   <BasicLayout>
     <div slot="content" style="margin-top: 150px">
+      <div style="width: 1300px;margin: 0 auto;">
       <h2 class="textStyle" style="margin: 50px 0 0 0; padding: 0;">运动项目介绍</h2>
       <h2 class="textStyle jianbian">w h a t &nbsp;y o u&nbsp; c a n &nbsp;c o m p e t e</h2>
       <div style="width: 80%;margin: 25px auto">
-        <p class="textStyle" style="width: 80%;margin: 0 auto;text-align: center;font-size: 13px;">
+        <p class="textStyle" style="width: 80%;margin: 0 auto;text-align: center;font-size: 15px;">
           美国大学体育作为大学生展现运动技能的舞台，为学生运动员提供了几乎所有的主流运动项目，
           并对应开展数以百计的联赛，冠军赛等
         </p>
@@ -20,7 +21,7 @@
 赛艇、滑雪、垒球、游泳&跳水、田径、 排球、水球、摔跤、【技巧啦啦操、舞蹈啦啦操(NAIA协会学校独有)】</span>
       </div>
       <div class="beimeiSport">
-        <img class="imgClass" src="../../static/images/images(D)/D_03.png">
+        <img class="imgClass" src="../../static/images/images(D)/D_beimen.png">
         <div class="sportsImg">
           <p>
             <img src="../../static/images/images(D)/D_06.png"></p>
@@ -62,25 +63,36 @@ font-weight:normal;
 font-style:italic;">中国学生运动员的优势项目：</p>
         <p class="yellowRadio" style="right: 0;margin-right: 5%"></p>
       </div>
-        <div class="fontStyle" style="margin: 0px auto;width: 80%;">
-          <p>
+        <div class="fontStyle" style="margin: 0px auto;width: 80%">
+          <p style="display: flex;">
             <span class="wordStyle">/ 体 操 /</span>
             <span class="wordStyle"> / 跳 水 /</span>
             <span class="wordStyle">/ 竞 技 健 美 操 /</span>
             <span class="wordStyle">/ 啦 啦 操 /</span>
           </p>
-<!--          <div style="background: url('../../static/images/images(D)/D_02.jpg') no-repeat;height: 500px">-->
-          <p style="font-size: 13px;font-weight: 400;line-height: 25px;" class="TwoText">
+<!--          <div style="background: url('../../static/images/images(D)/D_02_bak.jpg') no-repeat;height: 500px">-->
+          <p style="font-weight: 400;line-height: 25px;" class="TwoText">
             这些项目的中国运动员普遍在美国大学中具有较大优势，
             也是很多学校竞相争取的对象。为了招募到中国在这些项目中的优秀运动员，
             美国大学基本都会给予其全额奖学金，也会相应地降低语言成绩。
             所以满足条件的申请者千万不要犹豫，光明的未来在向你招手！
           </p>
 
-<!--          </div>-->
-          <img src="../../static/images/images(D)/D_02.jpg" style="width:100%;z-index:1;"/>
-          <img src="../../static/images/images(D)/d_text.png" style="margin-top: -380px;
-    margin-left: -100px;width: 143px;height:244px;z-index:2;position: absolute"/>
+          </div>
+          <div class="fontStyle" style="background: url('../../static/images/images(D)/D_02_all.png') no-repeat; width: 100%;height: 700px;background-size: contain;background-position: center center" >
+            <div style="width: 60%;display: flex;justify-content: space-between;margin:0 auto; padding-top: 288px;">
+            <p class="wordStyle">/ 足 球 /</p>
+            <p class="wordStyle">/ 网 球 /</p>
+            </div>
+            <div style="width: 60%;display: flex;justify-content: space-between;margin: 160px auto 0 auto;">
+            <p class="wordStyle">/ 高 尔 夫 /</p>
+            <p class="wordStyle">/ 游 泳 /</p>
+            </div>
+          </div>
+<!--        <div style="position: relative">-->
+<!--          <img src="../../static/images/images(D)/D_02_bak.jpg" style="width:100%;z-index:1;"/>-->
+
+<!--        </div>-->
           <div style="margin-bottom: 100px">
             <p class="TwoText">
               作为世界第一运动，<span style="color: #F5A727">足球</span>在美国大学普及率很高，90%以上的大学都会开展，但是美国的整体足球水平却差强人意，与国内学生水平的稳步上升呈现鲜明对比。归功于近年来足球运动在国内的蓬勃发展，国内的足球特长生进入美国是非常有优势的。
@@ -100,7 +112,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
       </div>
     <div class="footer" slot="footer">
       <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">
-        美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>
+        美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|<span class="hand" @click="nextTo('/icomponent')">联系我们</span></p>
     </div>
   </BasicLayout>
 </template>
@@ -110,7 +122,12 @@ font-style:italic;">中国学生运动员的优势项目：</p>
 
     export default {
         name: "D",
-        components: {BasicLayout}
+        components: {BasicLayout},
+      methods:{
+        nextTo(name) {
+          this.$router.push(name) ;
+        }
+      }
     }
 </script>
 
@@ -119,9 +136,10 @@ font-style:italic;">中国学生运动员的优势项目：</p>
     word-wrap: 5px;
     margin-right: 25px;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     color:#FF9A00;
     font-size: 17px;
+    width: 25%;
   }
   .textStyle {
     font-size: 33px;
@@ -164,8 +182,8 @@ font-style:italic;">中国学生运动员的优势项目：</p>
   .sportType {
     border: 1px solid #F49F15;
     z-index: 0;
-    width: 799px;
-    height: 73px;
+    max-width: 900px;
+    min-height: 73px;
     margin: 0 auto;
     /*border-bottom: 1px solid #F49F15;*/
     /*border-left: 1px solid #F49F15;*/
@@ -173,7 +191,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
   }
 
   .sportType span {
-    font-size: 13px;
+    font-size: 15px;
     font-family: NotoSansHans;
     font-weight: 400;
     font-style: italic;
@@ -188,7 +206,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
     margin-top: -16px;
     margin-left: 30px;
     z-index: 1;
-    background: black;
+    background: rgba(28,28,28,1);
   }
   .beimeiSport {
       width: 90%;
@@ -201,6 +219,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
     border-right: 1px solid #cccccc;
     z-index: 1;
     height: 126px;
+    position: relative;
   }
   .beimeiSport .imgClass {
     position: absolute;
@@ -230,7 +249,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
   .p1Style {
     display: inline-block;
     width: 30%;
-    font-size: 13px;
+    font-size: 15px;
     margin: 0 2%;
     text-align: start;
     line-height: 25px;
@@ -250,7 +269,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
     display: box;
     display: -webkit-box;
     display: -moz-box;
-    font-size:13px;
+    font-size:15px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;
@@ -275,7 +294,7 @@ font-style:italic;">中国学生运动员的优势项目：</p>
     width: 100%;
     /*height: 48px;*/
     /*line-height: 48px;*/
-    font-size: 21.5px;
+    font-size: 26px;
     font-family: NotoSansHans;
     font-weight: 300;
     font-style: italic;

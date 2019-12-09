@@ -7,6 +7,8 @@ import e from '@/components/E.vue'
 import f from '@/components/F.vue'
 import sport from '@/components/sport.vue'
 import question from '@/components/Question.vue'
+import icomponent from '@/components/Icomponent.vue'
+import wangye from '@/components/wangye.vue'
 
 Vue.use(Router)
 
@@ -26,9 +28,13 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/b',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/',
+      redirect: '/wangye',
     },
     {
       path: '/c',
@@ -59,6 +65,19 @@ export default new Router({
       path: '/question',
       name: 'Question',
       component: question
+    },
+    {
+      path: '/icomponent',
+      name: 'Icomponent',
+      component: icomponent
+    },
+    {
+      path: '/wangye',
+      name: 'wangye',
+      component: wangye
     }
-  ]
+  ],
+  scrollBehavior (to,from,savedPosition) {
+    return { x: 0,y: 0}
+  }
 })

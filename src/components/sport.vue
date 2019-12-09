@@ -50,7 +50,7 @@
   </div>
   <div slot="footer" class="footer">
     <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">
-      美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;联系我们</p>
+      美国运动员留学专家&nbsp;|&nbsp;<span style="color:#FF9300">Bridge Sports</span>&nbsp;|&nbsp;<span  class="hand"  @click="nextTo('/icomponent')">联系我们</span></p>
   </div>
 </BasicLayout>
 </template>
@@ -59,7 +59,12 @@
     import BasicLayout from "@/components/BasicLayout";
     export default {
         name: "sport",
-        components: {BasicLayout}
+        components: {BasicLayout},
+      methods:{
+        nextTo(name) {
+          this.$router.push(name) ;
+        }
+      }
     }
 </script>
 
@@ -92,7 +97,7 @@
     width: 100%;
     /*height: 48px;*/
     /*line-height: 48px;*/
-    font-size: 21.5px;
+    font-size: 26px;
     font-family: NotoSansHans;
     font-weight: 300;
     font-style: italic;
