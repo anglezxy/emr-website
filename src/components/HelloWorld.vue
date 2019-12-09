@@ -45,16 +45,16 @@
       </div>
       <div class="xmgaishu" style="border:1px solid rgba(255,139,0,1);border-radius:10px;margin-top: 80px;text-align: center;position: relative;">
         <h1 style="position: absolute;display: block;margin-top: -15px;text-align: center;width: 100%">个人成长</h1>
-        <p style="padding: 90px auto 78px auto !important;font-size: 18px;">
+        <p style="margin: 90px auto 78px auto;font-size: 18px;">
         <span style="line-height: 30px;height:60px">1.因为校队和队友的关系，学生运动员比普通留学生更容易融入美国校园文化，结交朋友 </span><br/>
           <span style="line-height: 60px">2.日常训练与教练、队友交流会更快提升英语能力 </span><br/>
         <span style="line-height: 60px">3.学校体育部会专门请企业高管给学生运动员上领导力提升、团队建设课程</span> <br/>
         <span style="line-height: 60px">4.优秀的时间管理能力，坚毅积极的人格，丰富独特的人生经历</span><br/>
         </p>
       </div>
-      <img src="../../static/images/images(B)/B_16.png" style="position:absolute;right: 0;width: 137px;height: 520px;margin-top:-150px">
+      <img src="../../static/images/images(B)/B_16.png" style="position:absolute;right: 0;margin-top:-150px">
       <h1>运动员福利</h1>
-      <div class="shenxue" style="text-align: left;margin-left: 10%;margin-right: 10%;">
+      <div class="shenxue" style="text-align: left;width: 1105px;margin: 0 auto;">
         <div v-for="(i,index ) in sportsPeople" :key="index">
          <div style="line-height: 27px;height:27px;"> <a-icon type="caret-right" style="color:#7F1753;fontSize:27px"/>
           <span style="color:#FF8B00;font-size: 20px;display: inline-block;vertical-align: top">{{ i.title }}</span>
@@ -110,7 +110,7 @@
       <p class="clickP hand" @click="nextTo('/icomponent')" >
         点击进入“关于我们”页面，查看更多合作院校
       </p>
-      <div style="margin: 380px auto;width: 76%;">
+      <div style="margin: 380px auto;width: 1205px;">
         <div style="margin-bottom: 150px;width: 100%;display: flex;flex-direction: row;justify-content: space-between">
           <img src="../../static/images/images(B)/B_09.png" style="width: 80px;height: 80px;margin-top:35px"/>
         <img src="../../static/images/images(B)/B_03.gif" style="width: 280px;height:150px;"/>
@@ -144,14 +144,14 @@
           <span style="color:#5F1264">Division III</span>: 水平为三个等级中最低，由443所大学组成，占40%
           <img src="../../static/images/images(B)/B_05.gif" style=" float: right;margin-top: -140px;"/>
           <br/>
-          <br/><br/>
+          <br/><br/><br/>
           * NCAA每年为Division I和Division II学校发放接近30亿美金的奖学金,受益的运动员超过50万。Division III 和 Ivy League（常春藤联盟）不提供运动奖学金，但会根据学生运动员具体情况提供相应助学金或者学术经费支持。
         </p>
-        <img   style="height: 424px;width: 96px;position: absolute;left: 0px" src="../../static/images/images(B)/B_02.gif">
+        <img   style="margin-top:-440px;position: absolute;left: 0px;" src="../../static/images/images(B)/B_02.gif">
         <p class="fontFamily sportText lineHeight">
           除了奖学金，<span style="color: #ED7D31">NCAA</span>成员校每年同样为学生运动员提供超过7500万美金的运动员基金用于帮助特别困难的学生运动员解决日常开销。比如家中发生紧急事故需要买机票回家，冬天需要添置衣物，或者购买日常生活必需品。成员校每年同样为学生运动员提供超过7500万美金的运动员基金用于帮助特别困难的学生运动员解决日常开销。比如家中发生紧急事故需要买机票回家，冬天需要添置衣物，或者购买日常生活必需品。
         </p>
-        <br/><br/>
+        <br/><br/><br/>
         <p class="fontFamily sportText lineHeight">
           <span style="color:#FFC000;font-size: 23.5px">NAIA</span>
           <span style="color:#FFC000;">联盟由超过250所小型私立大学组成，</span>
@@ -162,12 +162,12 @@
           <span style="color: #FFC000">NAIA</span>每年为其成员校提供6亿美金奖学金。
         </p>
         <img   style="height: 587px;width: 145px;position: absolute;right: 0px" src="../../static/images/images(B)/B_16.png">
-        <br/><br/>
+        <br/><br/><br/>
         <p class="fontFamily sportText lineHeight">
           <span style="color: #9D055C;"><span style="font-size: 20.5px">NJCAA</span>为美国社区大学体育联盟。</span>
           与NCAA相同，NJCAA内部分为三个等级。
         </p>
-        <br/>
+        <br/><br/><br/>
         <p class="fontFamily  lineHeight">
           <span style="color:#ED7D31">Division I</span>： 221所大学
         </p>
@@ -182,7 +182,7 @@
           NJCAA联盟中Division I和Division II学校会收到共计4.5亿美金用于发放学生运动员奖学金。虽然Division III学校的运动员没有运动奖学金，但因为学生运动员的身份也有机会申请到相当大比例的学术助学金。同时，NJCAA作为两年制社区大学，学费低廉，对学生学术能力（对国际生英语要求较低）和运动水平要求不高，完成两年社区大学学习后还可顺利转入任何四年制公、私立大学。较低的入学门槛使NJCAA联盟的成员学校广受青睐，成为学生获取美国精英教育的跳板。
         </p>
         <br/>
-        <p class="fontFamily web-font lineHeight" style="color:#FFC000;font-size: 15px;">
+        <p class="fontFamily lineHeight" style="color:#FFC000;font-size: 19px;">
           个联盟几乎覆盖了全美所有大学，为学生运动员提供了丰富的选择。
         </p>
 <!--        </div>-->
