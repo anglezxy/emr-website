@@ -46,7 +46,7 @@
       <img src="../../static/images/images(G)/G_23.png" style="width: 72px;height: 91px;position: absolute;left: 21%; top: 20px;">
       <img src="../../static/images/images(G)/G_30.png" style="width: 150px;height: 57px;position: absolute;left: 15%; top: 37px;"/>
     </div>
-    <hr  style="height:1px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
+    <hr  style="height:2px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
   </div>
   <div slot="footer" class="footer">
     <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">

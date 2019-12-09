@@ -92,34 +92,34 @@
       <h1 style="background: url('../../static/images/images(B)/B_07.png') no-repeat center;background-size: 160px 40px">
         学术成绩要求
       </h1>
-      <p style="font-size: 13px;color: #FF8B00;line-height: 30px">托福60分及以上（具体以校方要求为准）</p>
-      <p style="font-size: 13px;color: #FF8B00;line-height: 30px">学术成绩GPA2.3以上（初三以及高中三年成绩或大学成绩单）</p>
+      <p style="letter-spacing:3px;font-size: 18px;color: #FF8B00;line-height: 30px;font-family: NotoSansHans;font-style: italic">托福60分及以上（具体以校方要求为准）</p>
+      <p style="letter-spacing:3px;font-size: 18px;color: #FF8B00;line-height: 30px;font-family: NotoSansHans;font-style: italic">学术成绩GPA2.3以上（初三以及高中三年成绩或大学成绩单）</p>
       <img   style="position: absolute;right: 0px" src="../../static/images/images(B)/B_13.png">
       <h1>可选学校</h1>
-      <div class="fontFamily" style="margin:0 auto;border-radius: 5px;border: #7F1753 solid 1px;width:571px;height:89px;">
-        <p style="font-size: 13px;line-height: 30px;margin-top:15px">包含常春藤学校：哈佛大学，耶鲁大学，普林斯顿大学等<br/>
+      <div class="fontFamily" style="margin:0 auto;border-radius: 5px;border: #7F1753 solid 3px;width:800px;height:110px;">
+        <p style="line-height: 40px;margin-top:15px">包含常春藤学校：哈佛大学，耶鲁大学，普林斯顿大学等<br/>
           以及其他顶级名校：坦福大学、杜克大学、加州大学系统等</p>
       </div>
-      <div class="fontFamily" style="margin: 0 auto;width: 399.5px;text-align: center">
-        <p  style="font-size: 13px;line-height: 30px;margin-top:15px">
+      <div class="fontFamily" style="margin: 0 auto;width: 640px;text-align: center">
+        <p  style="line-height: 40px;margin-top:25px">
           美国高校运动奖学金项目覆盖三大美国高校运动协会:美国大学体育协会(NCAA)、 美国大学校际体育协会(NAIA)、美国社区大学体育协会(NJCAA)
-          三大联盟分别有成员校<span style="color: #FF8B00">1280</span>所、<span style="color: #FF8B00">250</span>所、和<span style="color: #FF8B00">525</span>所。
+          三大联盟分别有成员校<span style="color: #FF8B00;font-weight: bold">&nbsp;1280&nbsp;</span>所、<span style="font-weight: bold;color: #FF8B00">&nbsp;250&nbsp;</span>所、和<span style="font-weight: bold;color: #FF8B00">525&nbsp;</span>所。
         </p>
 
       </div>
       <p class="clickP hand" @click="nextTo('/icomponent')" >
         点击进入“关于我们”页面，查看更多合作院校
       </p>
-      <div style="margin: 0 auto;width: 76%;margin-top:80px;margin-bottom: 80px;">
-        <div style="margin-bottom: 40px;width: 100%;display: flex;flex-direction: row;justify-content: space-between">
+      <div style="margin: 380px auto;width: 76%;">
+        <div style="margin-bottom: 150px;width: 100%;display: flex;flex-direction: row;justify-content: space-between">
           <img src="../../static/images/images(B)/B_09.png" style="width: 80px;height: 80px;margin-top:35px"/>
         <img src="../../static/images/images(B)/B_03.gif" style="width: 280px;height:150px;"/>
           <img src="../../static/images/images(B)/B_09.png" style="width: 80px;height: 80px;margin-top:35px"/>
         </div>
-        <p class="fontFamily sportText">说到学生运动员在美国的优势地位就不得不提美国大学体育系统。</p>
-        <p class="fontFamily sportText">
+        <p class="fontFamily sportText lineHeight">说到学生运动员在美国的优势地位就不得不提美国大学体育系统。</p>
+        <p class="fontFamily sportText lineHeight">
           美国社会重视体育的程度不言而喻，而大学体育在美国高等教育文化中更是占据着举足轻重的地位。美国虽然没有专门的体育院校（分类为各综合类大学、文、理学院），但所有学校都会设立专门的体育部门并开展所有主流运动项目，为学生提供竞技的舞台。</p>
-        <p class="fontFamily sportText">
+        <p class="fontFamily sportText lineHeight">
           美国大学体育队不会招募职业运动员，学校更注重复合型人才的培养，专注为体育特长生创建优质的教育体系。除了自己的擅长的运动外，运动员还可以根据自己的学术兴趣方向自主选择专业，从而在学术领域也能达到非凡成就。独特的体教结合模式构成了精英教育的重要一环，使学业与体育的双重成功成为可能。
         </p>
         <p style="text-align: left;" class="threeSport">
@@ -188,7 +188,7 @@
 <!--        </div>-->
 
       </div>
-      <hr  style="height:1px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
+      <hr  style="height:2px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
     </div>
 
     <div slot="footer" class="footer">
@@ -342,25 +342,26 @@
     font-weight:400;
     font-style:italic;
     line-height: 30px;
+    font-size: 18px;
   }
   .lineHeight {
     line-height: 40px;
   }
 
   .clickP {
-    margin: 0 auto;
-    width:320px;
+    margin: 15px auto 0 auto;
+    width:420px;
     font-size:18px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;
     color:rgba(255,139,0,1);;
     line-height:30px;
-    border-bottom: solid 1px rgba(255,139,0,1);
+    border-bottom: solid 2px rgba(255,139,0,1);
   }
   .sportText {
     text-align: start;
-    text-indent:30px;
+    text-indent:49px;
     display: box;
     display: -webkit-box;
     display: -moz-box;

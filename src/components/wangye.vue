@@ -251,7 +251,7 @@
                     </div>
                 </div>
             </div>
-            <hr style="height:1px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
+            <hr style="height:2px;border-width:0;color:white;background-color:rgba(255,255,255,1);;width: 80%;margin: 0 auto">
         </div>
         <div class="footer" slot="footer">
             <p class="pStyle" style="margin-bottom: 0;padding-bottom: 60px">
