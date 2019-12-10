@@ -2,13 +2,13 @@
 <BasicLayout style="background: url('../../static/images/images(G)/G.jpg') no-repeat;background-size: 100%;background-position-y: -150px;background-position-x: 100px;">
   <div slot="content" style="margin-top: 150px">
     <div style="width: 70%;position:relative;margin: 80px auto;">
-      <img src="../../static/images/images(G)/G_01.png">
-      <div style="position:absolute;left: 0;top:150px">
+      <img src="../../static/images/images(G)/G_110.png">
+      <div style="position:absolute;left: 0;top:200px">
         <a-icon type="close" style="color: white;font-size: 32px;font-weight: bolder;"/>
         <div style="height: 80px"></div>
         <a-icon type="close" style="color: white;font-size: 32px;font-weight: bolder;"/>
       </div>
-      <div style="position:absolute;right: 0;top:150px">
+      <div style="position:absolute;right: 0;top:220px">
         <a-icon type="close" style="color: white;font-size: 32px;font-weight: bolder;"/>
         <div style="height: 80px"></div>
         <a-icon type="close" style="color: white;font-size: 32px;font-weight: bolder;"/>
@@ -36,13 +36,13 @@
     <div style="width: 100%;margin: 0 auto;position: relative">
       <img src="../../static/images/images(G)/G_10.png" style="position: absolute;left: 0;width: 125px;height: 340px;margin-top:60px;">
       <img src="../../static/images/images(G)/G_12.png" style="position: absolute;right: 0;width: 125px;height: 340px;margin-top:60px;">
-      <img src="../../static/images/images(G)/G_P.png">
+      <div ><img src="../../static/images/images(G)/G_tow.png"></div>
     </div>
     <div style="width: 100%;margin: 60px auto;line-height: 25px" class="fontFamily">
       <p style="color:#d88307">详细训练营计划会定期在公众号中推送,<br/>请添加下方公众号二维码获取更多资讯</p>
-      <img src="../../static/images/images(G)/G_24_1.png" style="width: 543px;height: 131px;margin-top:30px">
+      <img src="../../static/images/images(G)/G_24_1.png" style="margin-top:30px">
     </div>
-    <div style="width: 70%;border: 1px solid rgba(255,139,0,1);width:699px;height:131px;position: relative;margin: 60px auto 100px auto;">
+    <div style="width: 70%;border: 1px solid rgba(255,139,0,1);width:1200px;height:131px;position: relative;margin: 60px auto 100px auto;">
       <img src="../../static/images/images(G)/G_23.png" style="width: 72px;height: 91px;position: absolute;left: 21%; top: 20px;">
       <img src="../../static/images/images(G)/G_30.png" style="width: 150px;height: 57px;position: absolute;left: 15%; top: 37px;"/>
     </div>
@@ -70,18 +70,18 @@
 
 <style scoped>
   .fontFamily {
-    font-size:13px;
+    font-size:18px;
     font-family:NotoSansHans;
     font-weight:400;
     font-style:italic;
     color:rgba(255,254,254,1);
   }
   .indexTwo {
-    text-indent:30px;
+    text-indent:49px;
     display: box;
     display: -webkit-box;
     display: -moz-box;
-    line-height: 25px;
+    line-height: 30px;
     text-align: left;
   }
   .footer {

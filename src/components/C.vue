@@ -65,7 +65,7 @@
       <div style="right:0px;position: absolute;width: 200px;height: 280px;background: url('../../static/images/C_R.png') no-repeat"></div>
 <!--      <img src="../../static/images/C_R.png" style="right:0;position: absolute;width: 100px;height: 100px;background-size: ">-->
       <h2 style="margin: 50px 0 0 0;font-size: 16.5px">美国社区大学</h2>
-      <h2 style="color:#FF8400;margin: 0 0 15px 0;padding: 0;font-size: 8.95px;word-spacing: 3px;">c o m m u n i t y &nbsp;l l e g e</h2>
+      <h2 style="color:#FF8400;margin: 0 0 15px 0;padding: 0;font-size: 8.95px;word-spacing: 3px;">C O M M U N I T Y &nbsp;C O L L E G E</h2>
       <p class="textStyle indexTwo web-font" style="width: 80%;margin: 0 auto;text-align: left">
         美国的“community college”即“社区学院”或“社区大学”或可称为“两年制大学”，是美国独创的教育模式，大多为公立学校。时至今日，美国已拥有1167所社区大学——算上分校，总数可达1600所。
       </p>

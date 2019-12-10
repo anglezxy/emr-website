@@ -205,7 +205,7 @@ border-radius:50%;position: absolute;margin-left: 100px;margin-top:120px"></div>
     .indexTwo {
         font-size: 18px;
         line-height: 30px;
-        text-indent: 30px;
+        text-indent: 49px;
         display: box;
         display: -webkit-box;
         display: -moz-box;

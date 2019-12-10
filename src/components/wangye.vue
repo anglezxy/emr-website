@@ -157,73 +157,73 @@
                 </p>
                 <!--      <div style="background: url('../../static/images/images(I)/icon1.png') no-repeat;background-size: 100%;width: 80%;margin:0 auto;">-->
                 <div class="fontFamily" style="font-size: 16px;margin-top: 100px">
-                    <p style="margin: 15px 0;">
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您的性别</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您的性别</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <!--        <br/>-->
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您的年龄</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您的年龄</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle" style="border:1px solid #cccccc;background: none;"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您所在年级</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您所在年级</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您所从事的项目</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您所从事的项目</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle" style="border:1px solid #cccccc;background: none;"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您是否代表过专业队</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您是否代表过专业队</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您目前的训练机构</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您目前的训练机构</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您目前的运动等级</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您目前的运动等级</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您有通过运动技能出国留学的意向吗</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您有通过运动技能出国留学的意向吗</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
                 </div>
-                <div style="width: 50%;margin: 100px auto 180px auto;font-size: 22px;color:#FFFEFE;position:relative"
+                <div style="width: 50%;margin: 100px auto 180px auto;padding: 50px auto;font-size: 22px;color:#FFFEFE;position:relative;border: 1px dashed #d59225;border-radius: 5px;"
                      class="fontFamily1">
-                    <img src="../../static/images/images(I)/r_10.png"
-                         style="position: absolute;left: 0;width: 100%;height: 400px">
+<!--                    <img src="../../static/images/images(I)/r_10.png"-->
+<!--                         style="position: absolute;left: 0;width: 100%;height: 400px">-->
                     <p>请留下您的联系方式： <br/><span style="font-size: 14px;">（以下任选其一）</span></p>
                     <p class="pText"><span style="float: left">手机号:</span></p>
                     <p class="pText"><span style="float: left">微信号:</span></p>
                     <p class="pText"><span style="float: left">&nbsp;QQ号:</span></p>
-                    <p class="pText"><span style="float: left">电子邮箱:</span></p>
+                    <p class="pText" style="margin-bottom: 50px;"><span style="float: left">电子邮箱:</span></p>
                 </div>
                 <!--      </div>-->
             </div>
@@ -322,7 +322,8 @@
         height: 32px;
         background: rgba(77, 77, 77, 1);
         border: none;
-        margin-top: 15px;
+        /*margin-top: 15px;*/
+        /*margin-top: 15px;*/
         color: white;
     }
 

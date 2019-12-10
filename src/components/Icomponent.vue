@@ -1,15 +1,15 @@
 <template>
-    <basic-layout
-            style="width:100%;background: url('../../static/images/images(I)/I_100.png') no-repeat center;background-size: 100%;background-position-y:130px;">
-        <div slot="content" style="margin-top: 150px;">
-                <div style="width: 50%;margin: 0 auto;padding-top:120px;padding-bottom: 50px;">
-                    <p class="fontFamily">关于我们</p>
-                    <p class="fontFamily1">A b o u t&nbsp;&nbsp; U s</p>
-                    <p class="fontFamily1 indexTwo" style="color:rgba(255,254,254,1);">
+    <basic-layout>
+        <div slot="content" style="width:100%;background: url('../../static/images/images(I)/I_100.png') no-repeat center;background-size: 100%;background-position-y:100px;">
+                <div style="width: 1050px;margin: 0px auto 0 auto;padding-top:320px;padding-bottom: 50px;">
+                    <p class="fontFamily" style="margin-bottom: 5px;font-style: normal">关于我们</p>
+                    <p class="fontFamily1" style="letter-spacing: 12px;margin-top: 5px;font-size: 18px">A B 0 U T&nbsp;&nbsp; U S</p>
+                    <p class="fontFamily1 indexTwo" style="color:rgba(255,254,254,0.7);">
                         BridgeSports是国内首家专门帮助体育生/运动员利用自身运动优势进入美国大学深造的机构
                         。依托自身与美国大学体育联盟以及各大名校运动队的良好合作关系，BridgeSports致力于打造专业全面的国际体育及教育交流平台,为有才华有梦想的你发声！通过我们的服务，国内的体育特长生及高水平运动员将获得优质的海外体育留学机会，在更高的竞技平台上展现自己。享受世界顶尖教育模式的同时，增添国际视野，完成事业及人生的完美转型
                     </p>
-                    <p class="fontFamily1 indexTwo" style="color:rgba(255,254,254,1);">
+                  <br>
+                    <p class="fontFamily1 indexTwo" style="color:rgba(255,254,254,0.7);">
                         BridgeSports由10名中、美前学生运动员/运动奖学金获得者创立。我们深知体育生赴美留学的优势，同时也对美国大学生运动员的经历感同身受。为国内体育生/运动员创造更好的未来是我们的价值所在。
                     </p>
                 </div>
@@ -21,9 +21,9 @@
                 </div>
             </div>
             <div style="width: 1300px;margin: 0 auto;">
-                <div style="background: url('../../static/images/images(I)/our_co.png') no-repeat center;background-size: 100%;height:1377px;width: 80%;
+                <div style="background: url('../../static/images/images(I)/I_0001.png') no-repeat center;background-size: 100%;height:1377px;width: 80%;
         margin-left: 10%;background-position-y: 20px;"></div>
-                <hr style="height:1px;border-width:0;color:white;background-color:#FF9300;;width: 62%;margin: 0 auto">
+<!--                <hr style="height:1px;border-width:0;color:white;background-color:#FF9300;;width: 62%;margin: 0 auto">-->
                 <div style="margin-top:50px;margin-left: auto;margin-right: auto;margin-bottom: 50px;position:relative;width: 100%">
                     <img src="../../static/images/images(G)/G_23.png"
                          style="margin-top: 50px;width: 80px;height: 100px;display: block;margin: 0 auto;">
@@ -63,8 +63,8 @@
                         <p style="margin: 0;padding: 0">我 联</p>
                         <p style="padding: 0;margin: 0;">们 系</p>
                     </div>
-                    <p style="font-size:14px;font-family:FZZYJW;font-weight:normal;color:rgba(255,136,0,1);line-height:51px;">
-                        c o n t a c t &nbsp;U s</p>
+                    <p style="margin-top:0px;font-size:14px;font-family:FZZYJW;font-weight:bold;color:rgba(255,136,0,1);font-style: italic">
+                        CONTACT US</p>
                     <p class="contText">
                         如果您想了解更多美国运动留学资讯以及获取免费专业的留学评估，<br/>
                         请扫下方公众号二维码关注以及添加BridgeSports官方客服。
@@ -85,73 +85,73 @@
                     </p>
                     <!--      <div style="background: url('../../static/images/images(I)/icon1.png') no-repeat;background-size: 100%;width: 80%;margin:0 auto;">-->
                     <div class="fontFamily" style="font-size: 16px;margin-top: 100px">
-                    <p  style="color: white;font-size:16px;margin: 15px 0;">
+                    <p  style="color: white;font-size:16px;margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您的性别</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您的性别</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <!--        <br/>-->
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您的年龄</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您的年龄</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle" style="border:1px solid #cccccc;background: none;"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您所在年级</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您所在年级</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您所从事的项目</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您所从事的项目</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle" style="border:1px solid #cccccc;background: none;"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您是否代表过专业队</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您是否代表过专业队</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您目前的训练机构</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您目前的训练机构</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您目前的运动等级</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您目前的运动等级</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
-                    <p>
+                    <p style="margin-top: 25px;">
                         <a-icon type="caret-left" style="color:#FF8B00;font-size: 30px"/>
-                        <span style="display: inline-block;width: 375px;">您有通过运动技能出国留学的意向吗</span>
+                        <span style="display: inline-block;width: 375px;vertical-align: top">您有通过运动技能出国留学的意向吗</span>
                         <a-icon type="caret-right" style="color:#FF8B00;font-size: 30px"/>
                         <br>
                         <input class="inputStyle"/>
                     </p>
                     </div>
-                    <div style="width: 50%;margin: 30px auto 180px auto;font-size: 22px;color:#FFFEFE;position:relative"
+                    <div style="width: 50%;margin: 80px auto 180px auto;padding: 50px auto;font-size: 22px;color:#FFFEFE;position:relative;border: 1px dashed #d59225;border-radius: 5px;"
                          class="fontFamily1">
-                        <img src="../../static/images/images(I)/r_10.png"
-                             style="position: absolute;left: 0;width: 100%;height: 400px">
+<!--                        <img src="../../static/images/images(I)/r_10.png"-->
+<!--                             style="position: absolute;left: 0;width: 100%;height: 400px">-->
                         <p>请留下您的联系方式： <br/><span style="font-size: 14px;">（以下任选其一）</span></p>
                         <p class="pText"><span style="float: left">手机号:</span></p>
                         <p class="pText"><span style="float: left">微信号:</span></p>
                         <p class="pText"><span style="float: left">&nbsp;QQ号:</span></p>
-                        <p class="pText"><span style="float: left">电子邮箱:</span></p>
+                        <p class="pText" style="margin-bottom: 50px"><span style="float: left">电子邮箱:</span></p>
                     </div>
                     <!--      </div>-->
                 </div>
@@ -186,11 +186,11 @@
         font-weight: normal;
         font-style: italic;
         color: rgba(255, 255, 255, 1);
-        line-height: 24px;
+        line-height: 30px;
     }
 
     .fontFamily1 {
-        font-size: 15px;
+        font-size: 18px;
         font-family: NotoSansHans;
         font-weight: 400;
         font-style: italic;
@@ -208,20 +208,21 @@
     }
 
     .contText {
-        font-size: 15px;
+        margin-top: 30px;
+        font-size: 18px;
         font-family: NotoSansHans;
         font-weight: 400;
         font-style: italic;
-        color: rgba(255, 254, 254, 1);
-        line-height: 24px;
+        color: rgba(255, 254, 254, 0.7);
+        line-height: 30px;
     }
 
     .indexTwo {
-        text-indent: 30px;
+        text-indent: 49px;
         display: box;
         display: -webkit-box;
         display: -moz-box;
-        line-height: 25px;
+        line-height: 30px;
         text-align: left;
     }
 
