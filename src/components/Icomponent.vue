@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div style="width: 1300px;margin: 0 auto;">
-                <div style="background: url('../../static/images/images(I)/I_0001.png') no-repeat center;background-size: 100%;height:1377px;width: 80%;
+                <div style="background: url('../../static/images/images(I)/C_0005.png') no-repeat center;background-size: 100%;height:1377px;width: 80%;
         margin-left: 10%;background-position-y: 20px;"></div>
 <!--                <hr style="height:1px;border-width:0;color:white;background-color:#FF9300;;width: 62%;margin: 0 auto">-->
                 <div style="margin-top:50px;margin-left: auto;margin-right: auto;margin-bottom: 50px;position:relative;width: 100%">
